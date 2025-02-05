@@ -495,8 +495,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4021052891494181132}
   - component: {fileID: 4021052891494181122}
-  - component: {fileID: 4021052891494181133}
   - component: {fileID: 4021052891494181123}
+  - component: {fileID: 3582120299962510257}
+  - component: {fileID: 1029880900286807157}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -539,19 +540,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _healthChange: -5
   _applyToTarget: 0
-  _destroyOnCollision: 0
---- !u!114 &4021052891494181133
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4021052891494181135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acb62273054f5194eb96f03209cdde6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _knockbackForce: 8.94
+  _destroyOnCollision: 1
 --- !u!135 &4021052891494181123
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -565,6 +555,53 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.77
   m_Center: {x: 0.02, y: 0, z: 0.13227427}
+--- !u!114 &3582120299962510257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4021052891494181135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5659e4a5ef4c8f447a6ce6bf9b438cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mainExplosionChunk: {fileID: 2394316516446790197, guid: f8d14c1396fb62f46939c1cbd38e6a87, type: 3}
+  _secondaryExplosionChunk: {fileID: 2106163030849686931, guid: 148f340197373ba4e8729272c40b7044, type: 3}
+  _minChunks: 31
+  _maxChunks: 32
+  _explosionForce: 1500
+--- !u!114 &1029880900286807157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4021052891494181135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb62273054f5194eb96f03209cdde6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _alertedActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _huntActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern1Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern2Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern3Actions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4021052891743668032
 GameObject:
   m_ObjectHideFlags: 0
