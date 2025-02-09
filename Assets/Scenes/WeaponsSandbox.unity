@@ -892,6 +892,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5857641761768530162, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_Name
+      value: WEAPON_LOC
+      objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596609, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -939,6 +943,18 @@ PrefabInstance:
     - target: {fileID: 6203513321080596635, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203513321080596637, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_Radius
+      value: 0.7471738
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_Center.z
+      value: 0.095424175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
@@ -1101,10 +1117,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.28994942
   m_Height: 1
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.53894806, z: -0.105612755}
 --- !u!1001 &2132698933629641401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1159,6 +1175,26 @@ PrefabInstance:
     - target: {fileID: 2132698931914449077, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249149555774738948, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
+      propertyPath: m_Height
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249149555774738948, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
+      propertyPath: m_Radius
+      value: 0.46234226
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249149555774738948, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249149555774738948, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
+      propertyPath: m_Center.y
+      value: 1.4918714
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969846032172725323, guid: b0eafacfda25e284b912710a45617c8a, type: 3}
+      propertyPath: _useParentRotation
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0eafacfda25e284b912710a45617c8a, type: 3}

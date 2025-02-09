@@ -364,7 +364,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: eb0ab510bef2ad7469a944afa3b8c431, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -3770,8 +3770,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6203513321080596636, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: _isGrounded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596637, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203513321080596637, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
