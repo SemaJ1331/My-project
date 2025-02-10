@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596609, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.022
+      value: 2.395
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596609, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -314,9 +314,13 @@ PrefabInstance:
       propertyPath: _myCollider
       value: 
       objectReference: {fileID: 1190123168}
+    - target: {fileID: 6203513321080596637, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Radius
-      value: 0.63633823
+      value: 0.8049955
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Center.x
@@ -324,11 +328,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Center.y
-      value: 0.49999955
+      value: 0.055028975
       objectReference: {fileID: 0}
     - target: {fileID: 6203513321080596638, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_Center.z
-      value: 0.4405847
+      value: -0.056638956
       objectReference: {fileID: 0}
     - target: {fileID: 7285589746487360380, guid: dad8624cf55edae44abba87fee0450c2, type: 3}
       propertyPath: m_LocalPosition.x
